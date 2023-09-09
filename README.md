@@ -71,11 +71,17 @@ This is a simple notes app built with React and Django.
 
 
    i) It will clone the git repository to fetch the code
+   
    ii) and then it will build images from the Dockerfile
+   
    iii) and then that created image will be uploaded to the Docker Hub registry
+   
    iv) The image will be fetched from the Docker Hub registry to deploy the application inside a Docker Container
+   
    v) Enable Webhooks so that whenever there will be any changesd made in the code repository Jenkins will create a new build every single time
+   
    vi) Use Dcoker-compose to start and run an entire app on a standalone host that contains multiple services
+   
 
    <img width="960" alt="6" src="https://github.com/iamsouvik9/Project-CI-CD/assets/79768737/a0c0b0d7-959a-4e36-9945-662cd9228553">
 
